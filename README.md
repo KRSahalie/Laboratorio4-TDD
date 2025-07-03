@@ -13,7 +13,7 @@ Un procesador tipo pipeline es un sistema que puede realizar más de un tarea al
 
 ## Descripción de módulos utilizados y descripción de su funcionamiento:
 
-###Pasos para la implementación del pipeline:
+### Pasos para la implementación del pipeline:
 
 Etapa IF (Instruction Fetch)
 Esta etapa hace:
@@ -24,30 +24,30 @@ Esta etapa hace:
 
 Pasos:
 
-####1) Crear el registro inter-etapa IF/ID 
+#### 1) Crear el registro inter-etapa IF/ID 
 Este registro va a guardar el resultado de IF para que la siguiente etapa (ID) lo use en el siguiente ciclo de reloj.
 
-####2)Etapa ID/EX
+#### 2)Etapa ID/EX
 Se crea un registro inter-etapa ID/EX, donde se guardan los datos necesarios para la etapa EX, se usan esos nuevos tags en la etapa EX.
-2.1: Se agrega el registro ID/EX
-2.2: Se modifican conexiones nuevas
+##### 2.1: Se agrega el registro ID/EX
+##### 2.2: Se modifican conexiones nuevas
 
-####3)Etapa EX/MEM
+#### 3)Etapa EX/MEM
 Se crea el registro EX/EM que almacena los resultados de la etapa EX, para que luego la etapa MEM los use.
-3.1 Se agrega el registro EX/MEM
-3.2 Se conecta data_mem con los nuevos registros
+##### 3.1 Se agrega el registro EX/MEM
+##### 3.2 Se conecta data_mem con los nuevos registros
 
-####4)Etapa MEM/WB 
+#### 4)Etapa MEM/WB 
 Se guarda en el registro MEM/WB los datos que vienen de la memoria o la Alu, y se pasan a la etapa final (escritura en registros). 
-4.1 Se agrega una modificación extra al registro ID/EX 
-4.2 Se crea el registro MEM/WB
-4.3 Se agregan o conectan las nuevas señales
+##### 4.1 Se agrega una modificación extra al registro ID/EX 
+##### 4.2 Se crea el registro MEM/WB
+##### 4.3 Se agregan o conectan las nuevas señales
 
-###Pasos para la prueba de la implementación Pipeline:
+### Pasos para la prueba de la implementación Pipeline:
 
-####1) Crear un .mem con instruccciones (program.mem)
-####2) Se modifica inst_mem.sv para leer .mem
-####3) Crear un testbench (top_pipeline_tb.sv)
+#### 1) Crear un .mem con instruccciones (program.mem)
+#### 2) Se modifica inst_mem.sv para leer .mem
+#### 3) Crear un testbench (top_pipeline_tb.sv)
 
 ## Modulos usados
 ### Mux: que permite la salida de uno u otra entrada parametrizados.
