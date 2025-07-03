@@ -9,7 +9,7 @@
 [2] Molina, C. (s.f) Codigo del pipeline. Obtnido de https://edaplayground.com/x/pLHm
 
 # Pipeline
-Un procesador tipo pipeline es un sistema que puede realizar más de un tarea al mismo tiempo, debido a que, se separan por registros permitiendo guardar la infromación en cada una de las etapas y enviarlas a las siguientes etapas. Como cada una de las etapas necesita un registro, el tamaño de hardware aumenta, además de aumentar su complejidad a comparación de un uniciclo o multiciclo, no obstante, se obtiene una mejoria en su rendimiento y velocidad del sistema. El controlador del sistema es una parte indispensable del proceso, porque es el encargado de enviar los datos correctos a cada una de los partes del pipeline. Dependiendo del pipeline este puede ser mas complejo realizando tarea como jumps, xor, beq, jal, entre otras instrucciones.
+Un procesador tipo pipeline es un sistema que puede realizar más de un tarea al mismo tiempo, debido a que, se separan por registros permitiendo guardar la infromación en cada una ciclo de reloj y enviarlas a las siguientes etapas. Como cada una de las etapas necesita un registro, el tamaño de hardware aumenta, además de aumentar su complejidad a comparación de un uniciclo o multiciclo, no obstante, se obtiene una mejoria en su rendimiento y velocidad del sistema. El controlador del sistema es una parte indispensable del proceso, porque es el encargado de enviar los datos correctos a cada una de los partes del pipeline. Dependiendo del pipeline este puede ser mas complejo realizando tarea como jumps, xor, beq, jal, entre otras instrucciones.
 
 ## Descripción de módulos utilizados y descripción de su funcionamiento:
 
