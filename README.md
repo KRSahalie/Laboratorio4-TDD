@@ -919,4 +919,3 @@ endmodule
 <div align="center">
   <img src="https://raw.githubusercontent.com/KRSahalie/Laboratorio4-TDD/main/Archivos/Imagenes/TestbenchProce.png">
 </div>
-Archivos/Imagenes/TestbenchProce.png
