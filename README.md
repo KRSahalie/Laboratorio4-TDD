@@ -619,4 +619,4 @@ module mux_2_1 #(parameter WIDTH=32) (
   
 endmodule
 ```
-Finalmente
+Finalmente se le agregan las intrucciones para RISC-V para que el pipeline trabaje
