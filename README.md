@@ -917,5 +917,5 @@ endmodule
 ### Simulación del pipeline
 
 <div align="center">
-  <img src="https://github.com/KRSahalie/Laboratorio2-TDD/blob/main/Archivos/Imagenes/TestbenchProce.png">
+  <img src="https://github.com/KRSahalie/Laboratorio4-TDD/Archivos/Imagenes/TestbenchProce.png">
 </div>
